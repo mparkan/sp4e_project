@@ -51,7 +51,7 @@ int main(int argc, char *argv[]) {
 	
 	if (argc <= 1 or argc > 2){
 		
-		cerr << "Usage: h_sequence_segmentation src_datasource_name" << endl;
+		cerr << "Usage: " << argv[0] << " src_datasource_name" << endl;
 		cerr << endl;
 		cerr << "FAILURE: wrong syntax or no data source provided" << endl;
 		exit(1);
